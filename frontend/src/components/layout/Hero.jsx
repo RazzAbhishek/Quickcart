@@ -1,4 +1,4 @@
-import React from 'react';
+
 import heroImg from "../../assets/herosectionnn.png"; 
 import { Link } from 'react-router-dom';// Assuming you have a CSS file for styling
 
