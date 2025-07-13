@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { FaFilter } from "react-icons/fa";
-import FilterSideBar from "../components/product/FilterSidebar";
+import FilterSideBar from "../components/product/FilterSidebar;"
 import ProductGrid from "../components/product/ProductGrid";
 import SortOptions from "../components/product/SortOptions";
 import { useParams, useSearchParams } from "react-router-dom";
