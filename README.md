@@ -12,7 +12,7 @@ Quickcart is a full-featured e-commerce web application built using the MERN sta
 - **Authentication**: JWT
 - **State Management**: Redux Toolkit
 - **Payment Gateway**: PayPal Sandbox
-- **Deployment**: Render (Backend) & Vercel (Frontend)
+- **Deployment**: Vercel (Backend) & Vercel (Frontend)
 
 ---
 
