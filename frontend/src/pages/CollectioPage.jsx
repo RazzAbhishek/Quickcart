@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FaFilter } from "react-icons/fa";
-import FilterSideBar from "../components/product/FilterSidebar;"
+// import FilterSideBar from "../components/product/FilterSidebar;"
+import FilterSideBar from "@/components/product/FilterSidebar";
 import ProductGrid from "../components/product/ProductGrid";
 import SortOptions from "../components/product/SortOptions";
 import { useParams, useSearchParams } from "react-router-dom";
@@ -63,7 +64,7 @@ const CollectionPage = () => {
         ref={sidebarRef}
         className={`${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-  } fixed inset-y-0 z-50 left-0 w-64 bg-white overflow-y-auto transition-transform duration-300 
+        } fixed inset-y-0 z-50 left-0 w-64 bg-white overflow-y-auto transition-transform duration-300 
   lg:fixed lg:top-[100px] lg:h-[calc(100vh-100px)] lg:translate-x-0 lg:z-30`}
       >
         <FilterSideBar />
