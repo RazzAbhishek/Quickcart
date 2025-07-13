@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import AdminSideBar from "./AdminSideBar";
+import AdminSideBar from "./AdminSidebar";
 import { Outlet } from "react-router-dom";
 
 
